@@ -5,10 +5,10 @@ public abstract class Item {
 
 	boolean threeForTwo;
 	int fixedPriceDiscountQuantity;
-	float fixedPrice;
+	double fixedPrice;
 	int bulkMinQuantity;
 	int bulkDiscountQuantity;
-	float bulkDiscount;
+	double bulkDiscount;
 
 
 }
