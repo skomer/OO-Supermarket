@@ -17,5 +17,13 @@ public class FruitNVegProduct extends Item {
 		return this.name;
 	}
 
+	public double getUnitCost() {
+		return this.unitCost;
+	}
+
+	public double getUnitPrice() {
+		return this.unitPrice;
+	}
+
 
 }
