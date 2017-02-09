@@ -34,5 +34,5 @@ CREATE TABLE order_items (
 	id SERIAL4 PRIMARY KEY,
 	order_id INT4 REFERENCES orders(id),
 	item_id INT4 REFERENCES items(id),
-	quantity INT4 default=1
+	quantity INT4 DEFAULT 1
 );
