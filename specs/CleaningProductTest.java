@@ -20,6 +20,11 @@ public class CleaningProductTest {
 		assertEquals(3.14, bleach.getUnitCost(), 0.001);
 	}
 
+	@Test
+	public void hasUnitPrice() {
+		assertEquals(3.50, rubberGloves.getUnitPrice(), 0.001);
+	}
+
 
 
 }

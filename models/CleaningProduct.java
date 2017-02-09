@@ -21,6 +21,10 @@ public class CleaningProduct extends Item {
 		return this.unitCost;
 	}
 
+	public double getUnitPrice() {
+		return this.unitPrice;
+	}
+
 
 
 }
