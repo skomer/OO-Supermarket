@@ -1,5 +1,5 @@
 
-package supermarket.behaviours;
+package behaviours;
 
 interface Discountable {
 

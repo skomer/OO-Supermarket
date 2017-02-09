@@ -1,5 +1,5 @@
 
-package supermarket.models;
+package models;
 
 public class CleaningProduct extends Item {
 
@@ -11,6 +11,10 @@ public class CleaningProduct extends Item {
 		this.name = name;
 		this.unitCost = unitCost;
 		this.unitPrice = unitPrice;
+	}
+
+	public String getName() {
+		return this.name;
 	}
 
 

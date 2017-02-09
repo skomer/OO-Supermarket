@@ -1,6 +1,9 @@
+
+package specs;
+
 import static org.junit.Assert.*;
 import org.junit.*;
-import supermarket.models.*;
+import models.*;
 
 public class CleaningProductTest {
 
