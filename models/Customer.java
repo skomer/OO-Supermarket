@@ -12,6 +12,13 @@ public class Customer {
 		this.name = name;
 	}
 
+	public CustomerType getCustomerType() {
+		return this.customerType;
+	}
+
+	public String getName() {
+		return this.name;
+	}
 
 
 
