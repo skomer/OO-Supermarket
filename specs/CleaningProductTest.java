@@ -15,5 +15,11 @@ public class CleaningProductTest {
 		assertEquals("bleach", bleach.getName());
 	}
 
+	@Test
+	public void hasUnitCost() {
+		assertEquals(3.14, bleach.getUnitCost(), 0.001);
+	}
+
+
 
 }
