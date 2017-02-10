@@ -1,8 +1,6 @@
 package database;
- 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+
+import java.sql.*;
 import java.util.Properties;
  
 // modified from 
@@ -18,7 +16,12 @@ public class DatabaseConnection {
             String db = "jdbc:postgresql:supermarket";
             conn = DriverManager.getConnection(db);
             if (conn != null) {
-                System.out.println("Connected to supermarket");
+                Statement stmt = conn.createStatement();
+                ResultSet rs = stmt.executeQuery("SELECT * FROM customers;");
+                while (rs.next()) {
+                    String name = rs.getString("name");
+                    System.out.println(name);
+                }
             }
         } catch (SQLException ex) {
             ex.printStackTrace();

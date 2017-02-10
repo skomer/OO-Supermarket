@@ -36,3 +36,9 @@ CREATE TABLE order_items (
 	item_id INT4 REFERENCES items(id),
 	quantity INT4 DEFAULT 1
 );
+
+-- INSERT INTO customers (customer_type, name) VALUES ('SUPERMARKET', 'Lidl');
+-- INSERT INTO customers (customer_type, name) VALUES ('SHOPPER', 'Ruth');
+
+
+
